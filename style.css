@@ -1,0 +1,373 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+.row{
+     display: flex;
+    
+}
+
+/*-------------bar safra*----------------*/
+.col-1{
+     background-color: rgb(140, 131, 3);
+     width: 10%;
+     height: 100vh;
+}
+.col-1 img{
+     width: 50px;
+     margin-left: 20px;
+     margin-top: 20px;
+}
+
+/*-------------------backraou zar9a-------------*/
+.col-2{
+     width: 100%;
+     background: linear-gradient(to top, rgba(25, 10, 78, 0.8), rgb(2, 4, 63,0.8)),url(house-3.jpeg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+}
+.col-3{
+     background-color: rgb(14, 14, 49);
+     width: 40%;
+}
+.logo{
+     text-align: center;
+     color: rgb(140, 131, 3);
+     margin-top: 20px;
+}
+.title{
+     position: absolute;
+     top: 50%;
+     left: 20%;
+     transform: translate(-5%,-50%);
+}
+.title-1{
+     margin-top: 120px;
+}
+.title h2{
+     color: rgb(239, 144, 10);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title h1{
+     color: #fff;
+     font-size: 2.5rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title button{
+     background-color: rgb(239, 144, 10);
+     color: #fff;
+     padding: 7px 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stare{
+     margin-top: 100px;
+}
+.stare h1{
+     font-size: 20px;
+
+}
+.title-2{
+     margin-top: 100px;
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+    gap: 20px;
+   
+}
+.title-2 img{
+     max-width: 60%;
+}
+.col-3-1{
+     display: grid;
+     color: #d1db0f; 
+     margin-top: 200px;
+}
+.col-3-1 h1{
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 40px;
+     color: rgb(239, 144, 10);
+}
+.col-3-1-1{
+     margin-top: 10%;
+     display: grid;
+     gap: 30px;
+     margin-left: 30%;
+}
+.pol-1{
+     display: flex;
+}
+.image-cadre{
+     width: 70px;
+     border-radius: 100%;
+}
+.pol-1-1{
+     margin-left: 20px;
+}
+.pol-1-1 h1{
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pol-1-1 h3{
+     font-size: 10px;
+     color: #6a6a6a;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*--------------section----1*/
+.section-1{
+     height: 100%;
+     margin-left: 5%;
+     margin-top: 5%;
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(500px,10px));
+     gap: 40px;
+}
+.section-1 h1{
+     color: #6a6a6a;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section-1 h2{
+     color: #000000;
+     font-size:13px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section-1-1{
+     box-shadow: 1px 1px 1px 1px black;
+     background-color: rgb(207, 207, 211);
+     width: 100%;
+}
+.section-1-1:hover{
+     transform: translateY(-10px);
+     background-color: #1573a6;
+     transition: 1s;
+}
+
+/*----------section-2-----*/
+
+.section-2{
+     display: flex;
+     margin-top: 10%;
+     border: 3px solid rgb(255, 239, 18);
+     background-color: #b1afaf55;
+     height: 71vh;
+}
+
+.section-2-1{
+     display: inline;
+     width: 50%;
+}
+/*les troi 33 image*/
+.back{
+     width: 100%;
+}
+.story-1{
+     width: 60%;
+     transform: translate(30%,-140%);
+     
+}
+.story-2{
+     width: 50%;
+     transform: translate(110%,-280%);
+}
+
+
+.section-2-2{
+     display: inline-block;
+     width: 50%;   
+}
+.section-2-2 h3{
+     color: rgb(239, 144, 10);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-2-2 h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 38px;
+}
+.section-2-2 p{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-top: 30px;
+}
+.section-2-2 button{
+     background-color: rgb(239, 144, 10);
+     padding: 7px 50px;
+     color: #fff;
+     font-size: 20px;
+     margin-top: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coup-1{
+     display: inline-block;
+     transform: translate(30%,30%);
+}
+
+
+/*--------section-3------------*/
+.section-3{
+     height: 100%;
+     margin-top: 10%;
+}
+.row-3{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+     gap: 60px;
+     margin-left: 10%;
+}
+.col-3-3{
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.426);
+     height: 45vh;
+     width: 300px;
+     margin-left: 30px;
+     background-color: #d6d6d672; 
+}
+.col-3-3:hover{
+     transform: translateY(-15px);
+     box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.796);
+}
+.col-3-3 img{
+     width: 100%;
+}
+.col-3-3 h1{
+     background-color: #000000;
+     color: #fff;
+     width: 80%;
+     height: 5vh;
+     text-align: center;
+     transform: translate(15%,-90%);
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 100;
+}
+table{
+     text-align: center;
+     width: 100%;
+     height: 6rem;
+     border-collapse: collapse;
+     margin-top: -20px;
+}
+.col-3-3 button{
+     background-color: rgb(239, 144, 10);
+     color: #fff;
+     width: 100%;
+     height: 5vh;
+     font-size: 20px;
+     margin-top: 7px;
+}
+.col-3-3 button:hover{
+     background-color: #db270f;
+}
+
+
+/*--------foter*/
+footer{
+     background-color: #050116;
+     margin-top: 10%;
+     height: 30vh;
+     color: #fff;
+}
+.row-4{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+     margin-left: 5%;
+     transform: translate(0%,100%);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row-4 h1{
+     font-weight: 100;
+}
+.row-4 a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 200;
+}
+.footer-1 ,.footer-2,.footer-3,.footer-4,.footer-5,.footer-6{
+     border: 1px solid black;
+     background-color: #000000;
+     width: 80%;
+}
+.footer-1:hover ,.footer-2:hover,.footer-3:hover,.footer-4:hover,.footer-5:hover,.footer-6:hover{
+     transform: translateY(-10px);
+     box-shadow: 2px 2px 20px 2px rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .row{
+         display: grid;
+    }
+    .col-1{
+         display: block;
+         width: 100%;
+         height: 10vh;
+    }
+    .col-2{
+         width: 100%;
+
+    }
+    .col-3{
+         width: 100%;
+         height: 100%;
+    }
+    .col-3-1{
+         display: grid;
+         color: #db270f; 
+         margin-top: 20px;
+         font-size: 80px;
+    }
+    .col-3-1 h1{
+         text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .col-3-1-1{
+         margin-top: 20px;
+         display: grid;
+         gap: 30px;
+         margin-left: 30%;
+    }
+
+    /* fotter*/
+    footer{
+         height: 40vh;
+    }
+    .row-4{
+         display: grid;
+         grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+         gap: 10px;
+         margin-left: 10%;
+          transform: translate(0%,0%);
+}
+}
+
+@media screen and (max-width:900px){
+    /*----------section-2-----*/
+    .section-2{
+         display: table;
+     }
+     .coup-1{
+         display: inline-block;
+         transform: translate(60%,0%);
+    }
+    
+     /*les troi 33 image*/
+     .story-1{
+         width: 100%;
+         transform: translate(0%,0%);
+    }
+     .story-2{
+         width: 100%;
+         transform: translate(0%,0%);
+}
+}
